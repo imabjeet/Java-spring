@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #333;
+    margin: -8px -8px 0px -8px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    text-decoration:none;
+    display: block;
+    color:antiquewhite;
+    padding: 18px 20px;
+    text-align: center;
+}
+
+.active{
+    color:antiquewhite;
+    background-color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: activecaption;
+    color: background;
+}
