@@ -19,8 +19,17 @@
                 <input type="text" id="firstname"/>
                 <label for="lastname">Last Name</label>
                 <input type="text" id="lastname"/>
+                <label for="address">Address</label>
+                <textarea rows="5" id="address"/>
                 <label for="country">Country</label>
                 <select id="country"></select>
+                <label for="city">City</label>
+                <select id="city"></select>
+                <label for="zipcode">Zip Code</label>
+                <input type="text" id="zipcode"/>
+                <label for="haspet">Do you have a pet?</label>
+                <input type="radio" name="haspet" id="haspet_yes"/> Yes
+                <input type="radio" name="haspet" id="haspet_no"/> No
                 <button id="submit">Submit</button>
             </form>
         </div>
